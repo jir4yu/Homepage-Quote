@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Greeting from JindaTheme :)</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+	<style>body{text-align: center; background-color: #f8f8f8; padding: 50px; box-sizing: border-box; 
+font-family: 'Lato', sans-serif;} h1{font-size: 28px; max-width: 95%; margin: auto; line-height: 1.6;} h3{color: #777;}</style>
+</head>
+<body>
+	<div class="wrapper">
+		<h1 id="word"></h1>
+		<h3 id="speaker"></h3>
+	</div>
+	<script>
+		var qa = [{
+			'w': 'Every problem has a solution. You just have to be creative enough to find it.',
+			'f': 'Travis Kalanick - Uber'
+		}, {
+			'w': 'A lot about games isn’t how perfect your code is, it’s about how it feels and how much fun it is.',
+			'f': 'John Vechey - PopCap'
+		}, {
+			'w': 'Optimism, pessimism, fuck that; we’re going to make it happen. As God is my bloody witness, I’m hell-bent on making it work',
+			'f': 'Elon Musk - co-founder Paypal, Space-X and Tesla'
+		}, {
+			'w': 'Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do.',
+			'f': 'Steve Jobs - Apple'
+		}, {
+			'w': 'People don’t buy what you do, they buy why you do it. and what you do simply proves what you believe.',
+			'f': 'Simon Sinek - TED'
+		}, {
+			'w': 'It’s very easy to be different, but very difficult to be better.',
+			'f': 'Jonathan Ive - Apple'
+		}, {
+			'w': 'Once we accept our limits, we go beyond them.',
+			'f': 'Albert Einstein'
+		}, {
+			'w': 'Build something 100 people love, Not something 1 million people kind of like.',
+			'f': 'Brian Chesky - Airbnb'
+		}, {
+			'w': 'Act confident, even when you’re not.',
+			'f': 'Larry Ellison - Oracle'
+		}, {
+			'w': 'Most entrepreneurial ideas will sound crazy, stupid and uneconomic, and then they’ll turn out to be right.',
+			'f': 'Reed Hastings - Netflix'
+		}, {
+			'w': 'When people use your brand name as a verb, that is remarkable.',
+			'f': 'Meg Whitman - Hewlett Packard'
+		}, {
+			'w': 'In order to inspire people, That’s going to have to come from somewhere deep inside of you.',
+			'f': 'Jeff Weiner - Linkedin'
+		}, {
+			'w': 'Don’t be shy about believing your ideas, even if folks around you think you’re CRAZY',
+			'f': 'Time Westergren - Pandora'
+		}, {
+			'w': 'Less in more, Ask yourself is your product more like 140 characters in Twitter or the MS Office ribbon bar.',
+			'f': 'Bijan Sabet - Spark capital'
+		}, {
+			'w': 'Do what you love and the rest will come.',
+			'f': 'Dennis Crowley - Foursquare'
+		}]
+
+		var al = qa.length;
+		var n = Math.floor(Math.random() * al);
+
+		document.getElementById('word').innerHTML = qa[n].w
+		document.getElementById('speaker').innerHTML = qa[n].f
+
+	</script>
+</body>
+</html>
