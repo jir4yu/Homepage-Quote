@@ -1,7 +1,7 @@
 ### Homepage Quote
-because simple welcome page is out and useless, that's why i made.
+Because simple welcome page is out and useless, that's why I made. this html page is best for fresh installation of web server such as Nginx or Apache
 
-![Homepage Quote](http://img.ihere.org/uploads/2cc7c3f010.jpg)
+![Homepage Quote](http://i.imgur.com/3c2PpCP.jpg)
 
 ### Getting Started
 
